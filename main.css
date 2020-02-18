@@ -81,7 +81,7 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("background.jpeg");
+  background: url("../img/portrait.jpg");
   border-radius: 50%;
   border: solid 3px #eece1a;
 }
@@ -112,7 +112,8 @@
 }
 
 .menu .nav-link:hover {
-  color: #eece1a;
+  color: chartreuse;
+  transform: scale(1.25)
 }
 
 .nav-item:nth-child(1) {
@@ -158,7 +159,7 @@ body#bg-img:after {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(68, 68, 68, 0.5);
+  background: rgba(68, 68, 68, 0.9);
 }
 
 h1,
@@ -208,11 +209,11 @@ main .icons {
 
 main .icons a {
   padding: 0.4rem;
-  transition: all 0.5s ease-out;
 }
 
 main .icons a:hover {
   color: #eece1a;
+  transition: all 0.5s ease-out;
 }
 
 main#home {
@@ -272,7 +273,7 @@ main#home h1 {
 }
 
 .projects img:hover {
-  opacity: 0.5;
+  opacity: 0.1;
   border-color: #eece1a;
   transition: all 0.5s ease-out;
 }
@@ -384,7 +385,7 @@ main#home h1 {
   }
 
   .menu-branding .portrait {
-    background: url("background.jpg");
+    background: url("../img/portrait_small.jpg");
     width: 150px;
     height: 150px;
   }
