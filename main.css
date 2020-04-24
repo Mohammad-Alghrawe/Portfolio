@@ -146,7 +146,7 @@ body {
 }
 
 body#bg-img {
-  background: url(background.jpeg);
+  background: url(background.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
