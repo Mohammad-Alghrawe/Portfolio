@@ -79,11 +79,14 @@
 }
 
 .menu-branding .portrait {
-  width: 250px;
+  width: 140px;
   height: 250px;
-  background: url("small-image.png");
-  border-radius: 50%;
+  background: url("mohammad_image2.jpg");
+  border-radius: 10%;
   border: solid 3px #eece1a;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 .menu .nav-item {
@@ -419,4 +422,42 @@ main#home h1 {
   .projects {
     grid-template-columns: 1fr;
   }
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.float-slack {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 120px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.my-float-slack {
+  margin-top: 16px;
 }
