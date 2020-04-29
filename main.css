@@ -154,6 +154,11 @@ body#bg-img {
   background-size: cover;
 }
 
+body#bg-courses-img {
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 body#bg-img:after {
   content: '';
   position: absolute;
@@ -278,6 +283,23 @@ main#home h1 {
 }
 
 .projects img:hover {
+  opacity: 0.1;
+  border-color: #eece1a;
+  transition: all 0.5s ease-out;
+}
+
+.courses {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.courses img {
+  width: 100%;
+  border: 3px #fff solid;
+}
+
+.courses img:hover {
   opacity: 0.1;
   border-color: #eece1a;
   transition: all 0.5s ease-out;
