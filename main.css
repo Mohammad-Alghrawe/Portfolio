@@ -494,6 +494,7 @@ main#home h1 {
   margin-top: 20px;
 }
 
-span.art-hand {
+.art-hand {
   color: #25d366;
+  text-decoration: underline;
 }
