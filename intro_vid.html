@@ -1,85 +1,88 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Robots + Robotics+IT+Techs+Electronics+Elektrotechnik+Raspberrypi boards+Chips+IC+ PCB + Drones"
+    />
     <style>
-        * {
-            box-sizing: border-box;
-        }
+      * {
+        box-sizing: border-box;
+      }
 
-        body {
-            margin: 0;
-            font-family: Arial;
-            font-size: 17px;
-        }
+      body {
+        margin: 0;
+        font-family: Arial;
+        font-size: 17px;
+      }
 
-        #myVideo {
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
-        }
+      #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
 
-        .content {
-            position: fixed;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.5);
-            color: #f1f1f1;
-            width: 100%;
-            padding: 20px;
-        }
+      .content {
+        position: fixed;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+      }
 
-        #myBtn {
-            width: 200px;
-            font-size: 18px;
-            padding: 10px;
-            border: none;
-            background: #000;
-            color: rgb(241, 8, 8);
-            cursor: pointer;
-        }
+      #myBtn {
+        width: 200px;
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        background: #000;
+        color: rgb(241, 8, 8);
+        cursor: pointer;
+      }
 
-        #myBtn:hover {
-            background: #ddd;
-            color: black;
-        }
+      #myBtn:hover {
+        background: #ddd;
+        color: black;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <video autoplay muted loop id="myVideo">
-        <source src="hand_robo.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
+      <source src="hand_robo.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
     </video>
 
     <div class="content">
-        <h1>Artificial limbs, Robotic hand projects</h1>
-        <p> I started working on this project tow years ago and what im looking for is building an artificial hands by
-            using a simple materials , easy design and available for everyone around the world . <br> if you like the
-            idea you can join me ! <span class="art-hand">mohammad.alghrawe@gmail.com</span></p>
-        <button id="myBtn" onclick="myFunction()">Pause</button>
-        <a href="index.html" id="myBtn">Home</a>
-
+      <h1>Artificial limbs, Robotic hand projects</h1>
+      <p>
+        I started working on this project tow years ago and what im looking for
+        is building an artificial hands by using a simple materials , easy
+        design and available for everyone around the world . <br />
+        if you like the idea you can join me !
+        <span class="art-hand">mohammad.alghrawe@gmail.com</span>
+      </p>
+      <button id="myBtn" onclick="myFunction()">Pause</button>
+      <a href="index.html" id="myBtn">Home</a>
     </div>
 
     <script>
-        var video = document.getElementById("myVideo");
-        var btn = document.getElementById("myBtn");
+      var video = document.getElementById("myVideo");
+      var btn = document.getElementById("myBtn");
 
-        function myFunction() {
-            if (video.paused) {
-                video.play();
-                btn.innerHTML = "Pause";
-            } else {
-                video.pause();
-                btn.innerHTML = "Play";
-            }
+      function myFunction() {
+        if (video.paused) {
+          video.play();
+          btn.innerHTML = "Pause";
+        } else {
+          video.pause();
+          btn.innerHTML = "Play";
         }
+      }
     </script>
-
-</body>
-
+  </body>
 </html>
